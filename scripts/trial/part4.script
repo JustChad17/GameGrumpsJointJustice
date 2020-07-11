@@ -52,7 +52,6 @@ WITNESS_EVENT WitnessTestimony Ross "-- Witness's Account --"
     "It was when I was in the middle of making the level when I saw Jory walk by my office"
     "I got tired of making the level so I wanted to see what he was up to."
     "That's when I saw it! He had taken the Dinos and stuffed them into his backpack!"
-    "That's how I knew where to look for them."
 
 STOP_MUSIC
 FADE_TO_BLACK
@@ -60,9 +59,11 @@ FADE_TO_BLACK
 JUMPCUT COURT_JUDGE
 POSE "Judge Brent" Normal
 SPEAK_FROM COURT_JUDGE
-    "Hmm. So you were in your office working on a Mario Maker level but needed a break. That's when you saw Jory and saw the dinosaurs.
+    "Hmm. So you were in your office working on a Mario Maker level but needed a break.
 SPEAK "Judge Brent"
-    "That seems to make sense."
+    "That's when you saw Jory and saw the dinosaurs."
+SPEAK "Judge Brent"
+    "That seems reasonable to me."
 
 SPEAK_FROM COURT_PROSECUTION
     "Without a doubt your honor. That is how it really happened."
@@ -79,6 +80,9 @@ SPEAK_FROM COURT_DEFENSE
 POSE Dan SideNormal
 SPEAK_FROM COURT_ASSISTANT
     "Yeah... I can't really see any holes in his claim...
+
+JUMPCUT COURT_DEFENSE
+POSE Arin DeskSlam
 Speak Arin
     "Damn..."
 
@@ -92,6 +96,7 @@ SPEAK Arin
 Speak Dan
     "What is it?"
 
+ANIMATION DeskSlam
 POSE Arin DeskSlam
 SPEAK Arin
     "I'll just BS my way through by questioning everything he said!"
@@ -100,7 +105,7 @@ SPEAK Dan
     "I don't know man. Do you really think that will work?"
 
 SPEAK Arin
-    "Well maybe, but it's worked for everything else I've ever done, so FUCK IT!!!"
+    "Well maybe, but it's worked for everything else I've ever done..."
 
 JUMPCUT COURT_ASSISTANT
 SPEAK Dan
@@ -110,12 +115,14 @@ POSE Dan Angry
 SPEAK Dan
     "Wait, what do you mean every--"
 
+ANIMATION Arin DeskSlam
 POSE Arin DeskSlam
 SPEAK_FROM COURT_DEFENSE
     "LET'S DO IT!"
 
 SPEAK_FROM COURT_JUDGE
     "If the defense would like to cross examine now...?"
+
 POSE Arin Point
 SPEAK_FROM COURT_DEFENSE
     "You bet I would! I've got some questions that need answering!"
