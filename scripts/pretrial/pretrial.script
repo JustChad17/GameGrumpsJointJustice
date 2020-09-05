@@ -21,9 +21,9 @@ PLAY_MUSIC DLFTS
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 THINK Arin
-    "(It started out just like every time after our livestream)"
+    "(It started out just like every time after our livestream.)"
 THINK Arin
-    "(We had just finished a session playing Penix Wright: Facial Attorney)"
+    "(We had just finished a session playing Penix Wright: Facial Attorney.)"
 THINK Arin
     "(Dan and I were discussing some very important matters...)"
 
@@ -39,10 +39,10 @@ SPEAK Dan
     "It was one hell of a graduation party, dude."
 
 SPEAK Arin
-    "What.#Are you talking about, Dan."
+    "What.#Are you talking about, Dan?"
 
 SPEAK Dan
-    "Weren't you listening? I was telling you a very important story about how I graduated from ninja party school."
+    "Weren't you listening? I was telling you a very important story about how I graduated from Ninja Party School."
 SPEAK Arin
     "Ninja Party School?#The infamous NPS?"
 
@@ -65,7 +65,7 @@ POSE Dan Angry
 SPEAK Dan
     "NO goddamnit, I'm asking you!"
 SPEAK Dan
-    "You asked me about my graduation party and said it had to do with today's episode"
+    "You asked me about my graduation party and said it had to do with today's episode."
 
 POSE Dan Lean
 SPEAK Dan
@@ -139,9 +139,9 @@ POSE Jory Nervous
 SPEAK Jory
     "We spent the last ten minutes looking for them."
 SPEAK Arin
-    "Well that's not that long, they can't have gone far."
+    "Well that's not that long, they couldn't have gone far."
 SPEAK Jory
-    "Well that's the thing... we already found them."
+    "Well that's the thing ... we already found them."
 
 POSE Jory Sweaty
 SPEAK Arin
@@ -289,7 +289,7 @@ SPEAK Arin
 SFX Pageturn
 CHARACTER_LOCATION Jory LOBBY
 SPEAK Jory
-    "....#It's from my dad alright, but it's addressed to you two!"
+    "...#It's from my dad alright, but it's addressed to you two!"
 
 SFX Realization
 SPEAK Arin
@@ -398,7 +398,7 @@ SPEAK Jory
     "Wow, thanks guys.#I guess I'll head to the, uh, %1$qCourtroom$q%0 then."
 POSE Jory Thinking
 SPEAK Jory
-    "They turned the main grumps office space into a makeshift courtroom just for this."
+    "They turned the main Grumps Office space into a makeshift courtroom just for this."
 POSE Jory Normal
 SPEAK Jory
     "So uh, see you there."
