@@ -47,7 +47,7 @@ PLAY_MUSIC CROSSEXAMMODERATO
 
 WITNESS_EVENT WitnessTestimony Ross "-- Witness' Account --"
     "I was animating by myself over in my room at the office."
-    "But then... I saw someone taking the dinos!!"
+    "But then... I saw someone taking the dinos!"
     "It was Jory! He was on the 10 Minute Power Hour set taking the dinos!"
     "Now that I know they were stolen, that means the culprit must be Jory!"
 
@@ -130,7 +130,7 @@ DEFINE PressA1
 
     SHOUT "Tutorial Boy" Objection
     SPEAK_FROM COURT_PROSECUTION
-        "Your Honour, this is clearly irrelevant to the case."
+        "Your Honor, this is clearly irrelevant to the case."
     POSE "Judge Brent" Warning
     SPEAK_FROM COURT_JUDGE
         "I agree. Arin, try being serious about this."
@@ -379,7 +379,7 @@ DEFINE PressB4
 
     POSE Ross GlaringHelm
     SPEAK_FROM COURT_WITNESS
-        "No of course not! Not everyone has memorable bathroom trips like you Arin"
+        "No of course not! Not everyone has memorable bathroom trips like you Arin!"
 
     POSE Arin Sweaty
     SPEAK_FROM COURT_DEFENSE
@@ -392,7 +392,7 @@ END_DEFINE
 WITNESS_EVENT CrossExamination Ross "-- Witness' Account --" CrossExamFail
     "So I saw Jory walk by my office." PressB1 0
     "But I suddenly had to use the bathroom right away!" PressB2 0
-    "So I ran to use the nearby bathroom. On my way back I saw Jory stashing the dinos away" PressB3 PlumberInvoice
+    "So I ran to use the nearby bathroom. On my way back I saw Jory stashing the dinos away!" PressB3 PlumberInvoice
     "I didn't think anything of it, that's why I forgot to mention it earlier!" PressB4 0
 
 /////////////////////////
