@@ -1,4 +1,4 @@
-//////////////////////
+zx//////////////////////
 // INITIALIZE SCENE //
 //////////////////////
 
@@ -53,7 +53,7 @@ SPEAK "Judge Brent"
     "But how could this be true? Didn't Ross find them in the first place?"
 POSE "Judge Brent" Normal
 SPEAK "Judge Brent"
-    "We saw him find them in Jory's backpack, why would Ross find them himself if he was the one who stole them?"
+    "We saw him find them in Jory's backpack,# why would Ross find them himself if he was the one who stole them?"
 
 //POSE "Tutorial boy" Confident
 SPEAK_FROM COURT_PROSECUTION 
