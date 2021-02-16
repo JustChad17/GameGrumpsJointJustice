@@ -149,7 +149,7 @@ SPEAK Arin
 
 POSE Jory Nervous
 SPEAK Jory
-    "The problem is...#apparently they were found in %1MY backpack%0."
+    "The problem is...#apparently they were found in %1MY backpack%0!"
 POSE Jory Sweaty
 
 SCREEN_SHAKE
